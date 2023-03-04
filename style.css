@@ -1,0 +1,63 @@
+/* стилі для форми */
+
+body {
+    background-color: #90ada9;
+    text-align: center;
+    /* display: flex; */
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    padding: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+    /* збільшуємо розмір шрифту */
+    text-align: center;
+}
+
+
+/* стилі для форми */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 20px;
+    /* збільшуємо розмір шрифту */
+    text-align: center;
+    /* вирівнюємо елементи у центрі */
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="date"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* стилі для результату */
+
+#result {
+    margin-top: 20px;
+    font-size: 30px;
+    /* збільшуємо розмір шрифту */
+    text-align: center;
+    /* вирівнюємо елементи у центрі */
+}
